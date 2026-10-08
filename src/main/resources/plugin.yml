@@ -1,0 +1,14 @@
+name: StarLight
+version: 1.0.0
+main: br.starlight.StarLight
+api-version: '26.3'
+description: Itens Lendários da Creative Squad
+commands:
+  starlight:
+    description: Abre o menu dos Itens Lendários
+    usage: /starlight
+permissions:
+  starlight.use:
+    default: true
+  starlight.admin:
+    default: op
